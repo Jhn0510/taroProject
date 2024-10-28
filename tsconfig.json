@@ -25,6 +25,9 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["./src", "./types"],
+  "include": ["./src",
+  "./types",
+"src/**/*.scss"
+],
   "compileOnSave": false
 }
